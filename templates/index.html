@@ -1,0 +1,19 @@
+{% include "_common_header.html" %}
+<body>
+    <div class="col-md-5 col-md-offset-3">
+        {% include "_front_header.html" %}
+        <div>
+            <h4>Articles</h4>
+            <ul class="article-list">
+            {% for article in articles %}
+                <li><a href="/article/{{ article.id }}">{{ article.create_time |date:"Y-m-d" }} | {{ article.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>2018 powered by JasonSheh</p>
+        </div>
+    </div>
+</body>
+</html>

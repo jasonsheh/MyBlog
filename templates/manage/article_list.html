@@ -1,0 +1,36 @@
+{% include "_common_header.html" %}
+<body>
+    {% include "_manage_side_nav.html" %}
+    <div class="col-md-8">
+        <h3>Articles</h3>
+        <ul class="article-list">
+        {% for article in articles %}
+            <li>
+                <a href="/article/{{ article.id }}">{{ article.create_time |date:"Y-m-d" }} | {{ article.title }}</a>
+                <p class="text-right"><a href="/manage/article/{{ article.id }}">编辑</a></p>
+            </li>
+        {% endfor %}
+        </ul>
+
+        <nav aria-label="Page navigation">
+        <ul class="pagination pagination-sm">
+            {% if articles.has_previous %}
+            <li class="previous"><a href="/articles/{{ articles.previous_page_number }}">上一页</a></li>
+            <li class="previous"><a href="/articles">首页</a></li>
+            {% else %}
+            <li class="previous disabled"><a href="#">上一页</a></li>
+            <li class="previous disabled"><a href="#">首页</a></li>
+            {% endif %}
+
+            {% if articles.has_next %}
+            <li class="next"><a href="/articles/{{ articles.num_pages }}">尾页</a></li>
+            <li class="next"><a href="/articles/{{ articles.next_page_number }}">下一页</a></li>
+            {% else %}
+            <li class="next disabled"><a href="#">尾页</a></li>
+            <li class="next disabled"><a href="#">下一页</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    </div>
+</body>
+</html>
