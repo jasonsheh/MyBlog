@@ -1,10 +1,14 @@
 {% include "_common_header.html" %}
 <body>
-    <div class="col-md-5 col-md-offset-3">
+    <div class="col-md-8 col-md-offset-3">
         {% include "_front_header.html" %}
-        <div>
-            {{ article.content }}
-        </div>
+
+        <div class="content editormd-preview-theme-dark" id="content">{{ article.html_content | safe }}</div>
+
+        <script type="text/javascript">
+            editormd.markdownToHTML("content");
+            $(content).attr("class", "content editormd-preview-theme-dark");
+        </script>
 
         <div class="footer">
             <p>2018 powered by JasonSheh</p>

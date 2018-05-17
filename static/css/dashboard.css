@@ -14,7 +14,6 @@ h1 {
     font-family: OCR;
 }
 
-
 textarea {
     resize:none;
     background-color: #222;
@@ -24,7 +23,10 @@ textarea {
   color: #eee;
   background-color: #333;
 }
-
+.input-group-addon{
+  color: #eee;
+  background-color: #333;
+}
 .form-control {
   color: #eee;
   background-color: #333;

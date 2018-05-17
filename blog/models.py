@@ -8,5 +8,6 @@ class Article(models.Model):
     create_time = models.DateTimeField()
     modified_time = models.DateTimeField()
     content = models.TextField()
+    html_content = models.TextField(null=True)
     title = models.TextField()
     post_url = models.TextField()

@@ -1,0 +1,49 @@
+{% include "_common_header.html" %}
+<body>
+    {% include "_manage_side_nav.html" %}
+    <div class="col-md-9">
+        <script type="text/javascript">
+            $(function() {
+                testEditor = editormd("test-editormd", {
+                    width           : "100%",
+                    height          : 530,
+                    codeFold        : true,
+                    searchReplace   : true,
+                    tocm            : true,
+                    htmlDecode      : "style,script,iframe",  // you can filter tags decode
+                    emoji           : true,
+                    taskList        : true,
+                    tex             : true,  // 默认不解析
+                    flowChart       : true,  // 默认不解析
+                    sequenceDiagram : true,  // 默认不解析
+                    path            : "/static/editormd/lib/",
+                    imageUpload     : true,
+                    imageFormats    : ["jpg", "jpeg", "gif", "png", "bmp"],
+                    imageUploadURL  : "/upload",
+                    saveHTMLToTextarea : true,
+                    theme           : "dark",
+                    previewTheme    : "dark",
+                    editorTheme     : "pastel-on-dark",
+                });
+            });
+        </script>
+        <form action="/edit_article/add/" method="post" id="login-form">
+            {% csrf_token %}
+            <div class="editormd" id="test-editormd">
+                <textarea class="editormd-markdown-textarea" name="content"></textarea>
+                <!-- 第二个隐藏文本域，用来构造生成的HTML代码，方便表单POST提交，这里的name可以任意取，后台接受时以这个name键为准 -->
+                <textarea class="editormd-html-textarea" name="html_content"></textarea>
+            </div>
+
+            <div class="text-right input-group">
+                <span class="input-group-addon">标题</span>
+                <input class="form-control" type="text" name="title" value="">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">提交</button>
+                    <button class="btn btn-default" type="button" onclick="javascript:window.location.hash='#test'">预览</button>
+                </span>
+            </div>
+        <form>
+    </div>
+</body>
+</html>

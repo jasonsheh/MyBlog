@@ -2,15 +2,22 @@
 # __author__ = 'jasonsheh'
 # -*- coding:utf-8 -*-
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from blog.models import Article
 
+import time
+
 
 def index(request):
     articles = Article.objects.order_by('-id')[0:12]
     return render(request, 'index.html', {'articles': articles})
+
+
+def about(request):
+    return render(request, 'about.html', )
 
 
 def articles(request, page):
@@ -19,16 +26,12 @@ def articles(request, page):
     articles = Article.objects.order_by('-id')
     paginator = Paginator(articles, 10)
     part_articles = paginator.page(page)
-    return render(request, 'articles.html', {'articles': part_articles})
+    return render(request, 'articles.html', {'articles': part_articles, 'total_pages': paginator.num_pages})
 
 
 def article(request, id):
     article = Article.objects.get(id=id)
     return render(request, 'article.html', {'article': article})
-
-
-def about(request):
-    return render(request, 'about.html', )
 
 
 def manage(request):
@@ -43,26 +46,48 @@ def manage_articles(request, page):
     articles = Article.objects.order_by('-id')
     paginator = Paginator(articles, 8)
     part_articles = paginator.page(page)
-    return render(request, 'manage/article_list.html', {'articles': part_articles})
+    return render(request, 'manage/article_list.html', {'articles': part_articles, 'total_pages': paginator.num_pages})
 
 
-def article_detail(request, article_id):
+def alter_article_interface(request, article_id):
     article = Article.objects.get(id=article_id)
     content = article.content
-    return render(request, 'manage/article_detail.html', {'content': content, 'article_id':article_id})
+    return render(request, 'manage/article_alter.html', {'content': content, 'article_id': article_id})
 
 
-def alter_article(request):
+def add_article_interface(request):
+    return render(request, 'manage/article_add.html')
+
+
+def add_article_logic(request):
+    create_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
+    modified_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
+    content = request.POST['content']
+    html_content = request.POST['html_content']
+    post_url = title = request.POST['title']
+    Article.objects.get_or_create(
+        create_time=create_time,
+        content=content,
+        html_content=html_content,
+        title=title,
+        post_url=post_url,
+        modified_time=modified_time
+    )
+
+
+def alter_article_logic(request):
     article = Article.objects.get(id=request.POST['article_id'])
     article.content = request.POST['content']
+    article.html_content = request.POST['html_content']
+    # article.modified_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
     article.save()
     return HttpResponseRedirect('/manage/article/'+request.POST['article_id'])
 
 
-def delete_article(request, article_id):
+def delete_article_logic(request, article_id):
     article = Article.objects.get(id=article_id)
     content = article.content
-    return render(request, 'manage/article_detail.html', {'content': content})
+    return render(request, 'manage/article_alter.html', {'content': content})
 
 
 def admin_login(request):

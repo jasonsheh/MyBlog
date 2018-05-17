@@ -14,16 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, re_path
-from myblog.views import index, articles, article, about, manage, manage_articles, article_detail, alter_article, admin_login
+from myblog.views import index, article, articles, about, admin_login,manage, manage_articles, \
+    alter_article_interface, alter_article_logic, add_article_interface, add_article_logic,\
+    delete_article_logic
 
 urlpatterns = [
     path('', index),
-    re_path('^articles/(\d*)', articles),
-    re_path('^article/(\d*)', article),
     path('about/', about),
     path('manage/', manage),
-    path('edit_article/alter/', alter_article),
-    re_path('^manage/article/(\d*)', article_detail),
-    re_path('^manage/articles/(\d*)', manage_articles),
     path('login/', admin_login),
+    re_path('^articles/(\d*)', articles),
+    re_path('^article/(\d*)', article),
+    path('edit_article/alter/', alter_article_logic),
+    path('edit_article/delete/', delete_article_logic),
+    path('edit/article/add', add_article_logic),
+    re_path('^manage/article/(\d*)', alter_article_interface),
+    re_path('^manage/add/article', add_article_interface),
+    re_path('^manage/articles/(\d*)', manage_articles),
 ]
