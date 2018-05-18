@@ -2,538 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2a86bd-d181-4560-a438-a5e4617179f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/manage/article_add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/BUGS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/CHANGE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/Gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.logo.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.preview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/css/editormd.preview.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/editormd.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Bold-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-BoldItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-BoldItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-BoldItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Italic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Italic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Light-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-LightItalic-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-LightItalic-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-LightItalic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/fonts/OpenSans-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/scripts/linenumber.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/scripts/prettify/Apache-License-2.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/scripts/prettify/lang-css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/scripts/prettify/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/styles/jsdoc-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/styles/prettify-jsdoc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/docs/styles/prettify-tomorrow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/editormd.amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/editormd.amd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/editormd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/editormd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/@links.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/auto-height.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/change-mode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/code-fold.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/custom-keyboard-shortcuts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/custom-toolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/define-plugin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/delay-renderer-preview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/dynamic-create-editormd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/emoji.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/extends.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/external-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/flowchart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/form-get-value.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/goto-line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/html-preview-markdown-to-html-custom-toc-container.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/html-preview-markdown-to-html.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/html-tags-decode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/image-cross-domain-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/image-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/images/editormd-screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/js/require.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/js/sea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/js/seajs-main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/js/zepto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/katex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/manually-load-modules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/multi-editormd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/multi-languages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/on-off.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onchange.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onfullscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onpreviewing-onpreviewed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onresize.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onscroll-onpreviewscroll.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/onwatch-onunwatch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/page-break.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/php/cross-domain-upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/php/editormd.uploader.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/php/post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/php/upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/php/upload_callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/readonly.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/resettings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/search-replace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/sequence-diagram.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/set-get-replace-selection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/simple.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/sync-scrolling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/task-lists.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/themes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/toolbar-auto-fixed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/use-requirejs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/use-seajs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/examples/use-zepto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/editormd-logo.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/editormd-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/editormd-logo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/editormd-logo.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/loading@3x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-favicon-16x16.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-favicon-24x24.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-favicon-32x32.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-favicon-48x48.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-favicon-64x64.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-240x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-24x24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-320x320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-64x64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/editormd-logo-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/images/logos/vi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/languages/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/languages/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/comment/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/comment/continuecomment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/dialog/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/dialog/dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/display/fullscreen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/display/fullscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/display/panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/display/placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/display/rulers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/closebrackets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/closetag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/continuelist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/matchbrackets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/matchtags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/edit/trailingspace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/brace-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/comment-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/foldcode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/foldgutter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/foldgutter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/indent-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/markdown-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/fold/xml-fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/anyword-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/css-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/html-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/javascript-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/sql-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/hint/xml-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/coffeescript-lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/css-lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/javascript-lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/json-lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/lint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/lint/yaml-lint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/merge/merge.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/merge/merge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/mode/loadmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/mode/multiplex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/mode/multiplex_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/mode/overlay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/mode/simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/runmode/colorize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/runmode/runmode-standalone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/runmode/runmode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/runmode/runmode.node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/scroll/annotatescrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/scroll/scrollpastend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/scroll/simplescrollbars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/scroll/simplescrollbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/search/match-highlighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/search/matchesonscrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/search/matchesonscrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/search/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/search/searchcursor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/selection/active-line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/selection/mark-selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/selection/selection-pointer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/tern/tern.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/tern/tern.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/tern/worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addon/wrap/hardwrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/addons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/codemirror.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/codemirror.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/lib/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/lib/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/apl/apl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/apl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/asterisk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/clike/clike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/clike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/clike/scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/clojure/clojure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/clojure/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/cobol/cobol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/cobol/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/coffeescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/commonlisp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/less.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/less_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/scss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/scss_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/css/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/cypher/cypher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/cypher/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/d/d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/d/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dart/dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dart/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/diff/diff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/diff/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/django/django.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/django/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dockerfile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dtd/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dtd/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dylan/dylan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/dylan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ebnf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ecl/ecl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ecl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/eiffel/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/erlang/erlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/erlang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/forth/forth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/forth/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/fortran/fortran.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/fortran/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gas/gas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gas/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gfm/gfm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gfm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gfm/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/gherkin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/go/go.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/go/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/groovy/groovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/groovy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haml/haml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haskell/haskell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haskell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haxe/haxe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/haxe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/http/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/http/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/idl/idl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/idl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/jade/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/jade/jade.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/javascript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/javascript/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/javascript/typescript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/jinja2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/julia/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/julia/julia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/kotlin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/livescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/livescript/livescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/lua/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/lua/lua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/markdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/markdown/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/markdown/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/mirc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/mirc/mirc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/mllike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/mllike/mllike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/modelica/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/modelica/modelica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/nginx/nginx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ntriples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/octave/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/octave/octave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pascal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pascal/pascal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pegjs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/perl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/perl/perl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/php/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/php/php.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/php/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pig/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/pig/pig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/properties/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/properties/properties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/puppet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/puppet/puppet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/python/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/q/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/q/q.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/r/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/r/r.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rpm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rpm/rpm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rst/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rst/rst.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ruby/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ruby/ruby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/ruby/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rust/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/rust/rust.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sass/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sass/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/scheme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/scheme/scheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/shell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/shell/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/shell/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sieve/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sieve/sieve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/slim/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/slim/slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/slim/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smalltalk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smarty/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smarty/smarty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smartymixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/solr/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/solr/solr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/soy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/soy/soy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sparql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sparql/sparql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/sql/sql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/stex/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/stex/stex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/stex/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/stylus/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/stylus/stylus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tcl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tcl/tcl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/textile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/textile/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/textile/textile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiki/tiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tiki/tiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/toml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/toml/toml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tornado/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/tornado/tornado.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/turtle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/turtle/turtle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/vb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/vb/vb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/vbscript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/velocity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/velocity/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/verilog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/verilog/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/verilog/verilog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xml/xml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xquery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xquery/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/xquery/xquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/yaml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/yaml/yaml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/z80/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/mode/z80/z80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/modes.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/3024-day.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/3024-night.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/ambiance-mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/ambiance.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/base16-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/base16-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/blackboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/cobalt.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/colorforth.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/eclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/elegant.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/erlang-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/lesser-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/mbo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/mdn-like.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/midnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/monokai.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/neat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/neo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/night.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/paraiso-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/paraiso-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/pastel-on-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/rubyblue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/solarized.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/the-matrix.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/tomorrow-night-bright.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/tomorrow-night-eighties.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/twilight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/vibrant-ink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/xq-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/xq-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/codemirror/theme/zenburn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/flowchart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/jquery.flowchart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/marked.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/prettify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/raphael.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/sequence-diagram.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/lib/underscore.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/code-block-dialog/code-block-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/emoji-dialog/emoji-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/emoji-dialog/emoji.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/goto-line-dialog/goto-line-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/help-dialog/help-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/help-dialog/help.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/html-entities-dialog/html-entities-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/html-entities-dialog/html-entities.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/image-dialog/image-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/link-dialog/link-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/plugin-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/preformatted-text-dialog/preformatted-text-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/reference-link-dialog/reference-link-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/table-dialog/table-dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/plugins/test-plugin/test-plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.codemirror.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.dialog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.logo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.menu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.preview.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.preview.themes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.tab.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/editormd.themes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/github-markdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/lib/prefixes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/lib/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/scss/prettify.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/src/editormd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/bootstrap-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/codemirror-searchbox-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/codemirror-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/js/searchbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/katex-tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/marked-@at-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/marked-emoji-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/marked-heading-link-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/marked-todo-list-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/qunit/qunit-1.16.0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/editor.md-master/tests/qunit/qunit-1.16.0.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_common_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_common_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/editormd/css/editormd.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/editormd/css/editormd.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_manage_side_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_manage_side_nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manage/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manage/article_alter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/manage/article_alter.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manage/article_alter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/manage/article_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manage/article_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -548,10 +22,10 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="327">
+              <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
               <folding>
-                <element signature="e#68#119#0" expanded="true" />
+                <element signature="e#68#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -560,8 +34,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="460">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#630#667#0" expanded="true" />
               </folding>
@@ -569,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/article.html">
+      <file leaf-file-name="article_add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/manage/article_add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -581,44 +55,17 @@
       <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="475">
               <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_alter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/manage/article_alter.html">
+      <file leaf-file-name="_manage_side_nav.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/_manage_side_nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article_add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/manage/article_add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common_header.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/_common_header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="380">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -626,8 +73,8 @@
       <file leaf-file-name="article_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/manage/article_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+            <state relative-caret-position="285">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -659,6 +106,8 @@
       <find>.nav&gt;li&gt;a</find>
       <find>django.middleware.csrf.CsrfViewMiddleware</find>
       <find>searchReplace</find>
+      <find>editormd-preview-theme-dark</find>
+      <find>.editormd-preview-theme-dark</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -686,17 +135,18 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/templates/manage/article_detail.html" />
         <option value="$PROJECT_DIR$/templates/manage.html" />
-        <option value="$PROJECT_DIR$/myblog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/_manage_side_nav.html" />
         <option value="$PROJECT_DIR$/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/articles.html" />
-        <option value="$PROJECT_DIR$/templates/manage/article_list.html" />
         <option value="$PROJECT_DIR$/templates/article.html" />
-        <option value="$PROJECT_DIR$/myblog/views.py" />
-        <option value="$PROJECT_DIR$/templates/manage/article_alter.html" />
-        <option value="$PROJECT_DIR$/templates/manage/article_add.html" />
         <option value="$PROJECT_DIR$/templates/_common_header.html" />
+        <option value="$PROJECT_DIR$/static/editormd/css/editormd.min.css" />
+        <option value="$PROJECT_DIR$/templates/manage/article_add.html" />
+        <option value="$PROJECT_DIR$/templates/manage/article_alter.html" />
+        <option value="$PROJECT_DIR$/templates/manage/article_list.html" />
+        <option value="$PROJECT_DIR$/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/myblog/views.py" />
+        <option value="$PROJECT_DIR$/templates/_manage_side_nav.html" />
       </list>
     </option>
   </component>
@@ -881,20 +331,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/manage/article_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -910,7 +350,7 @@
         <state relative-caret-position="228">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <element signature="e#68#119#0" expanded="true" />
+            <element signature="e#68#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -961,9 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,7 +409,7 @@
         <state relative-caret-position="399">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#68#119#0" expanded="true" />
+            <element signature="e#68#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1017,7 +454,7 @@
         <state relative-caret-position="418">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#68#119#0" expanded="true" />
+            <element signature="e#68#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1055,7 +492,7 @@
         <state relative-caret-position="418">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#68#119#0" expanded="true" />
+            <element signature="e#68#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1144,20 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_manage_side_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1793">
@@ -1197,71 +620,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/manage/article_list.html">
+    <entry file="file://$PROJECT_DIR$/static/editormd/css/editormd.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        <state relative-caret-position="307">
+          <caret line="4" column="44145" selection-start-line="4" selection-start-column="44145" selection-end-line="4" selection-end-column="44145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/_common_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="e#630#667#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/articles.html">
+    <entry file="file://$PROJECT_DIR$/templates/manage/article_alter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#68#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/manage/article_alter.html">
+    <entry file="file://$PROJECT_DIR$/templates/manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/manage/article_add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_common_header.html">
+    <entry file="file://$PROJECT_DIR$/templates/manage/article_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="93" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#630#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
+          <folding>
+            <element signature="e#68#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/_manage_side_nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>

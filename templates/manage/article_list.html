@@ -9,7 +9,7 @@
                 <a href="/article/{{ article.id }}">{{ article.create_time |date:"Y-m-d" }} | {{ article.title }}</a>
                 <p class="text-right">
                     <a href="/manage/article/{{ article.id }}">编辑</a>
-                    <a href="/manage/article/{{ article.id }}">删除</a>
+                    <a href="/manage/delete/article/{{ article.id }}">删除</a>
                 </p>
             </li>
         {% endfor %}

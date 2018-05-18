@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # __author__ = 'jasonsheh'
 # -*- coding:utf-8 -*-
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
@@ -52,7 +52,8 @@ def manage_articles(request, page):
 def alter_article_interface(request, article_id):
     article = Article.objects.get(id=article_id)
     content = article.content
-    return render(request, 'manage/article_alter.html', {'content': content, 'article_id': article_id})
+    title = article.title
+    return render(request, 'manage/article_alter.html', {'content': content, 'title': title, 'article_id': article_id})
 
 
 def add_article_interface(request):
@@ -60,8 +61,8 @@ def add_article_interface(request):
 
 
 def add_article_logic(request):
-    create_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
-    modified_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
+    create_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+    modified_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
     content = request.POST['content']
     html_content = request.POST['html_content']
     post_url = title = request.POST['title']
@@ -73,21 +74,22 @@ def add_article_logic(request):
         post_url=post_url,
         modified_time=modified_time
     )
+    return HttpResponseRedirect('/manage/articles/')
 
 
 def alter_article_logic(request):
     article = Article.objects.get(id=request.POST['article_id'])
     article.content = request.POST['content']
     article.html_content = request.POST['html_content']
+    article.title = request.POST['title']
     # article.modified_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
     article.save()
     return HttpResponseRedirect('/manage/article/'+request.POST['article_id'])
 
 
 def delete_article_logic(request, article_id):
-    article = Article.objects.get(id=article_id)
-    content = article.content
-    return render(request, 'manage/article_alter.html', {'content': content})
+    Article.objects.get(id=article_id).delete()
+    return HttpResponseRedirect('/manage/articles/')
 
 
 def admin_login(request):
@@ -100,3 +102,7 @@ def admin_login(request):
     else:
         return HttpResponseRedirect('/')
 
+
+def admin_logout(request):
+    logout(request)
+    return HttpResponseRedirect('/')
