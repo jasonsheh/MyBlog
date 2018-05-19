@@ -3,7 +3,8 @@
 # -*- coding:utf-8 -*-
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponse, HttpResponseRedirect
+from django.views.decorators.csrf import csrf_protect
+from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.core.paginator import Paginator
 from blog.models import Article
@@ -90,6 +91,18 @@ def alter_article_logic(request):
 def delete_article_logic(request, article_id):
     Article.objects.get(id=article_id).delete()
     return HttpResponseRedirect('/manage/articles/')
+
+
+def upload_image(request):
+    try:
+        image_name = request.FILES['editormd-image-file'].name
+        image = request.FILES['editormd-image-file']
+        with open('./upload/'+image_name, 'wb') as destination:
+            for chunk in image.chunks():
+                destination.write(chunk)
+        return JsonResponse({'success': 1, 'message': 'upload pic success', 'url': '/upload/'+image_name})
+    except Exception as e:
+        return JsonResponse({'success': 0, 'message': 'upload pic failed'})
 
 
 def admin_login(request):
