@@ -2,17 +2,19 @@
 <body>
     {% include "_manage_side_nav.html" %}
     <div class="col-md-8">
-        <h3>Articles</h3>
         <ul class="article-list">
         {% for article in articles %}
             <li>
                 <a href="/article/{{ article.id }}">{{ article.create_time |date:"Y-m-d" }} | {{ article.title }}</a>
                 <p class="text-right">
-                    <a href="/manage/article/{{ article.id }}">编辑</a>
-                    <a href="/manage/delete/article/{{ article.id }}">删除</a>
+                    <button type="button" class="btn btn-sm" onclick="window.location.href='/manage/article/{{ article.id }}'">编辑</button>
+                    <input type="hidden" name="article-id" value="{{ article.id }}">
+                    <!--<a href="/manage/article/{{ article.id }}">编辑</a>-->
+                    <button type="button" class="btn btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="deleteUrl({{ article.id }})">删除!</button>
+                    <!--<a href="/manage/delete/article/{{ article.id }}">删除</a>-->
                 </p>
             </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
 
         <nav aria-label="Page navigation">
@@ -35,5 +37,27 @@
         </ul>
     </nav>
     </div>
+    <div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">确认是否删除</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" name="delete" class="btn btn-danger" data-dismiss="modal" onclick="window.location.href='/manage/delete/article/">删除</button>
+                    <button type="button" class="btn">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function deleteUrl(id){
+            url = $("button[name='delete']").attr('onclick') + id + "'"
+            $("button[name='delete']").attr('onclick', url)
+        }
+    </script>
+
 </body>
 </html>

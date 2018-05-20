@@ -3,7 +3,6 @@
 # -*- coding:utf-8 -*-
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.views.decorators.csrf import csrf_protect
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.core.paginator import Paginator
@@ -41,6 +40,7 @@ def manage(request):
     return render(request, 'login.html', )
 
 
+@login_required
 def manage_articles(request, page):
     if not page:
         page = 1
@@ -50,6 +50,7 @@ def manage_articles(request, page):
     return render(request, 'manage/article_list.html', {'articles': part_articles, 'total_pages': paginator.num_pages})
 
 
+@login_required
 def alter_article_interface(request, article_id):
     article = Article.objects.get(id=article_id)
     content = article.content
@@ -57,10 +58,12 @@ def alter_article_interface(request, article_id):
     return render(request, 'manage/article_alter.html', {'content': content, 'title': title, 'article_id': article_id})
 
 
+@login_required
 def add_article_interface(request):
     return render(request, 'manage/article_add.html')
 
 
+@login_required
 def add_article_logic(request):
     create_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
     modified_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
@@ -78,21 +81,24 @@ def add_article_logic(request):
     return HttpResponseRedirect('/manage/articles/')
 
 
+@login_required
 def alter_article_logic(request):
     article = Article.objects.get(id=request.POST['article_id'])
     article.content = request.POST['content']
     article.html_content = request.POST['html_content']
     article.title = request.POST['title']
-    # article.modified_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
+    # article.modified_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
     article.save()
     return HttpResponseRedirect('/manage/article/'+request.POST['article_id'])
 
 
+@login_required
 def delete_article_logic(request, article_id):
     Article.objects.get(id=article_id).delete()
     return HttpResponseRedirect('/manage/articles/')
 
 
+@login_required
 def upload_image(request):
     try:
         image_name = request.FILES['editormd-image-file'].name
@@ -116,6 +122,7 @@ def admin_login(request):
         return HttpResponseRedirect('/')
 
 
+@login_required
 def admin_logout(request):
     logout(request)
     return HttpResponseRedirect('/')
