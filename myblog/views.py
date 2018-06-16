@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # __author__ = 'jasonsheh'
 # -*- coding:utf-8 -*-
+from django.conf import settings
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
@@ -9,6 +10,7 @@ from django.core.paginator import Paginator
 from blog.models import Article
 
 import time
+import requests, re, os
 
 
 def index(request):
@@ -18,6 +20,15 @@ def index(request):
 
 def about(request):
     return render(request, 'about.html', )
+
+
+@login_required
+def upgrade(request):
+    r = requests.get('https://raw.githubusercontent.com/jasonsheh/MyBlog/master/myblog/settings.py')
+    latest_version = re.findall(re.compile("BLOG_VERSION = '(.*?)'"), r.text)[0]
+    if latest_version >= settings.BLOG_VERSION:
+        os.system('cd .. && git clone https://github.com/jasonsheh/MyBlog.git')
+    return render(request, 'manage.html', )
 
 
 def articles(request, page):
@@ -126,3 +137,6 @@ def admin_login(request):
 def admin_logout(request):
     logout(request)
     return HttpResponseRedirect('/')
+
+if __name__ == '__main__':
+    upgrade()

@@ -18,7 +18,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from myblog.views import index, article, articles, about, admin_login, admin_logout, manage, manage_articles, \
     alter_article_interface, alter_article_logic, add_article_interface, add_article_logic,\
-    delete_article_logic, upload_image
+    delete_article_logic, upload_image, upgrade
 
 urlpatterns = [
     path('', index),
@@ -26,6 +26,7 @@ urlpatterns = [
     path('manage/', manage),
     path('login/', admin_login),
     path('logout/', admin_logout),
+    path('upgrade/', upgrade),
     re_path('^articles/(\d*)', articles),
     re_path('^article/(\d*)', article),
     path('upload_image', upload_image),
