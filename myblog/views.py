@@ -26,8 +26,9 @@ def about(request):
 def upgrade(request):
     r = requests.get('https://raw.githubusercontent.com/jasonsheh/MyBlog/master/myblog/settings.py')
     latest_version = re.findall(re.compile("BLOG_VERSION = '(.*?)'"), r.text)[0]
-    if latest_version >= settings.BLOG_VERSION:
-        os.system('cd .. && git clone https://github.com/jasonsheh/MyBlog.git')
+    if latest_version > settings.BLOG_VERSION:
+        os.system('git clone https://github.com/jasonsheh/MyBlog.git && cd .. && \cp -rf ./Myblog/MyBlog/* ./Myblog'
+                  '&& cd Myblog && rm -rf ./MyBlog && ./init.sh || systemctl restart myblog')
     return render(request, 'manage.html', )
 
 
