@@ -1,7 +1,7 @@
 {% include "_common_header.html" %}
 <body>
     {% include "_manage_side_nav.html" %}
-    <div class="col-md-5">
+    <div class="col-md-8">
         <header>
             <h1>Jason Sheh</h1>
         </header>
@@ -12,6 +12,17 @@
                 <li><a href="https://github.com/jasonsheh">项目</a></li>
                 <li><a href="/about">关于</a></li>
                 <li><a href="/manage">管理</a></li>
+                <li>
+                    <form class="form-inline" method="post" action="/search_article_title">
+                        {% csrf_token %}
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <input class="form-control" type="text" name="title" placeholder="标题搜索" value="">
+                                <button class="btn btn-default" type="submit">搜索</button>
+                            </span>
+                        </div>
+                    </form>
+                </li>
             </ul>
         </div>
 

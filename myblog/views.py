@@ -52,6 +52,14 @@ def manage(request):
     return render(request, 'login.html', )
 
 
+def search_article_title(request):
+    title = request.POST['title']
+    articles = Article.objects.filter(title__icontains=title)
+    paginator = Paginator(articles, 8)
+    part_articles = paginator.page(1)
+    return render(request, 'manage/article_list.html', {'articles': part_articles, 'total_pages': paginator.num_pages})
+
+
 @login_required
 def manage_articles(request, page):
     if not page:
@@ -138,6 +146,7 @@ def admin_login(request):
 def admin_logout(request):
     logout(request)
     return HttpResponseRedirect('/')
+
 
 if __name__ == '__main__':
     upgrade()
