@@ -28,7 +28,13 @@ def upgrade(request):
     latest_version = re.findall(re.compile("BLOG_VERSION = '(.*?)'"), r.text)[0]
     if latest_version > settings.BLOG_VERSION:
         os.system('git clone https://github.com/jasonsheh/MyBlog.git && cd .. && \cp -rf ./Myblog/MyBlog/* ./Myblog'
-                  '&& cd Myblog && rm -rf ./MyBlog && ./init.sh || systemctl restart myblog')
+                  '&& cd Myblog && rm -rf ./MyBlog && ./init.sh && systemctl restart myblog')
+    return render(request, 'manage.html', )
+
+
+@login_required
+def backup(request):
+    os.system('cd .. && tar -czpf ./backup.tar.gz ./Myblog')
     return render(request, 'manage.html', )
 
 
