@@ -29,13 +29,13 @@ def upgrade(request):
     if latest_version > settings.BLOG_VERSION:
         os.system('git clone https://github.com/jasonsheh/MyBlog.git && cd .. && \cp -rf ./Myblog/MyBlog/* ./Myblog'
                   '&& cd Myblog && rm -rf ./MyBlog && ./init.sh && systemctl restart myblog')
-    return render(request, 'manage.html', )
+    return render(request, 'manage.html', {'version': settings.BLOG_VERSION})
 
 
 @login_required
 def backup(request):
     os.system('cd .. && tar -czpf ./backup.tar.gz ./Myblog')
-    return render(request, 'manage.html', )
+    return render(request, 'manage.html', {'version': settings.BLOG_VERSION})
 
 
 def articles(request, page):
@@ -54,7 +54,7 @@ def article(request, id):
 
 def manage(request):
     if request.user.is_authenticated:
-        return render(request, 'manage.html')
+        return render(request, 'manage.html', {'version': settings.BLOG_VERSION})
     return render(request, 'login.html', )
 
 
@@ -143,7 +143,7 @@ def admin_login(request):
     user = authenticate(username=username, password=password)
     if user is not None and user.is_active:
         login(request, user)
-        return render(request, 'manage.html')
+        return render(request, 'manage.html', {'version': settings.BLOG_VERSION})
     else:
         return HttpResponseRedirect('/')
 
